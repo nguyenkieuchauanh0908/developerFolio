@@ -1,6 +1,6 @@
 {
-  "homepage": "https://nguyenkieuchauanh0908.github.io/",
-  "name": "developerfolio",
+  "homepage": "https://nguyenkieuchauanh0908.github.io/portpolio",
+  "name": "portpolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -24,7 +24,7 @@
     "predeploy": "npm run build",
     "start": "node fetch.js && react-scripts start",
     "build": "node fetch.js && react-scripts build",
-    "deploy": "gh-pages -b main -d build",
+    "deploy": "gh-pages -b gh-pages-branch -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write \"./**/*.{js,css,json,scss}\"",
